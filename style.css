@@ -1,0 +1,32 @@
+body {
+    display:grid;
+    grid-template-columns: repeat(6,100px);
+    grid-template-rows: repeat(6,100px);
+}
+
+#one {
+    border: 50px solid red;
+    border-radius: 50%;
+    background-color: orange;
+    
+    grid-row:1 /-1;
+    grid-column: 1/-1;
+}
+
+.two {
+    border: 50px solid yellow;
+    border-radius: 50%;
+    background-color: green;
+
+    grid-row:2 / -2;
+    grid-column: 2 / -2;
+}
+
+.three {
+    border: 50px solid blue;
+    border-radius:50%;
+    background-color: #7b2dbb;
+
+    grid-row: 3/ -3;
+    grid-column: 3/-3;
+}
